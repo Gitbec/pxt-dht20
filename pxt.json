@@ -1,6 +1,6 @@
 {
-    "name": "dht20",
-    "description": "",
+    "name": "pxt-dht20",
+    "description": "extension for I2C dht20 sensor",
     "dependencies": {
         "core": "*"
     },
@@ -24,5 +24,5 @@
     "supportedTargets": [
         "calliopemini"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
