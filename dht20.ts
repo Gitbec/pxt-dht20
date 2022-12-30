@@ -39,16 +39,16 @@ namespace DHT20 {
             temp1 = DHT20ReadBuff[4] & 0xff;
             rawData = ((temp & 0xf) << 16) + (temp1 << 8) + (DHT20ReadBuff[5]);
             temperature = rawData / 5242 - 50;
-            temperature = temperature * 100
-            return Math.round(temperature) / 100;
+            temperature = temperature * 10
+            return Math.round(temperature) / 10;
         }
         else {
             temp = DHT20ReadBuff[1] & 0xff;
             temp1 = DHT20ReadBuff[2] & 0xff;
             rawData = (temp << 12) + (temp1 << 4) + ((DHT20ReadBuff[3] & 0xf0) >> 4);
             humidity = rawData / 0x100000;
-            humidity = humidity * 10000
-            return Math.round(humidity) / 100;
+            humidity = humidity * 1000
+            return Math.round(humidity) / 10;
         }
     }
 
