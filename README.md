@@ -1,31 +1,27 @@
+# pxt-dht20
 
-> Diese Seite bei [https://mkleinsb.github.io/dht20/](https://mkleinsb.github.io/dht20/) öffnen
+This makecode extension provides easy to use Blocks for the dht20 humidity and temperatur sensor.
+This sensor uses the I2C port which means you have to use the left groveport of the calliope mini.
 
-## Als Erweiterung verwenden
+![dht20](https://github.com/MKleinSB/pxt-dht20/blob/master/dht20.jpg "Grove DHT20") 
 
-Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
+### Blocks
 
-* öffne [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
-* klicke auf **Neues Projekt**
-* klicke auf **Erweiterungen** unter dem Zahnrad-Menü
-* nach **https://github.com/mkleinsb/dht20** suchen und importieren
 
-## Dieses Projekt bearbeiten ![Build Status Abzeichen](https://github.com/mkleinsb/dht20/workflows/MakeCode/badge.svg)
+```sig
+DHT20.dht20Sensor(DHT20.DHT20_state.DHT20_humidity)
+```
+![grafik](https://user-images.githubusercontent.com/37311672/210074294-195f3147-97e1-40fb-b8fd-3bae21ad8621.png)
 
-Um dieses Repository in MakeCode zu bearbeiten.
 
-* öffne [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
-* klicke auf **Importieren** und dann auf **Importiere URL**
-* füge **https://github.com/mkleinsb/dht20** ein und klicke auf Importieren
+```sig
+DHT20.dht20Sensor(DHT20.DHT20_state.DHT20_temperature_C)
+```
 
-## Blockvorschau
+![grafik](https://user-images.githubusercontent.com/37311672/210074237-a01d4e5c-bc76-4b61-9f0e-4b90621bc6f2.png)
 
-Dieses Bild zeigt den Blockcode vom letzten Commit im Master an.
-Die Aktualisierung dieses Bildes kann einige Minuten dauern.
 
-![Eine gerenderte Ansicht der Blöcke](https://github.com/mkleinsb/dht20/raw/master/.github/makecode/blocks.png)
-
-#### Metadaten (verwendet für Suche, Rendering)
+## Supported targets
 
 * for PXT/calliopemini
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+* for PXT/microbit
