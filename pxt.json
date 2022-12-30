@@ -9,7 +9,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "dht20.ts"
+        "dht20.ts",
+        "_locales/de/pxt-dht20-strings.json"
     ],
     "testFiles": [
         "test.ts"
