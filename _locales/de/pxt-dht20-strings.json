@@ -1,5 +1,5 @@
 {
-"DHT20.DHT20_state.DHT20_humidity|block": "Feuchtigkeit (0~100) \\%",
-"DHT20.DT20_state.DHT20_temperature_C|block": "Temperatur (℃)",
+"DHT20.DHT20_state.DHT20_humidity|block": "Feuchtigkeit (0~100) %",
+"DHT20.DHT20_state.DHT20_temperature_C|block": "Temperatur (℃)",
 "DHT20.dht20Sensor|block": "DHT20 Sensor %dht20state"
 }

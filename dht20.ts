@@ -1,7 +1,7 @@
 /**
 * dht20 makecode extension based on PlanetX sensor by ELECFREAKS Co.,Ltd.
 */
-//% color=#2159b2 icon="\uf2c9" block="DHT20" blockId="DHT20_"
+//% color=#2159b2 icon="\uf2c9" block="DHT20" blockId="DHT20"
 
 namespace DHT20 {
 
