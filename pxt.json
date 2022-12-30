@@ -1,5 +1,6 @@
 {
     "name": "pxt-dht20",
+    "version": "0.0.1",
     "description": "extension for I2C dht20 sensor",
     "dependencies": {
         "core": "*"
